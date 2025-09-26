@@ -45,7 +45,7 @@ export const ContactSection = () => {
                                     <Mail className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div>
-                                    <h4 className="font-medium"> Email</h4>
+                                    <h4 className="font-semibold text-left"> Email</h4>
                                     <a 
                                         href="mailto:diljubhaskaranam@gmail.com" 
                                         className="text-muted-foreground hover:text-primary transition-colors"
@@ -58,7 +58,7 @@ export const ContactSection = () => {
                                     <Phone className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div>
-                                    <h4 className="font-medium"> Phone</h4>
+                                    <h4 className="font-semibold text-left"> Phone</h4>
                                     <a 
                                         href="tel:+918590348930" 
                                         className="text-muted-foreground hover:text-primary transition-colors"
@@ -71,7 +71,7 @@ export const ContactSection = () => {
                                     <MapPin className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div>
-                                    <h4 className="font-medium"> Location</h4>
+                                    <h4 className="font-semibold text-left"> Location</h4>
                                     <a 
                                         className="text-muted-foreground hover:text-primary transition-colors"
                                     >Koduvally, Kozhikode, 673572, Kerala, India</a>
@@ -82,13 +82,13 @@ export const ContactSection = () => {
                         <div className="pt-8">
                             <h4 className="font-medium mb-4">Connect With Me</h4>
                             <div className="flex space-x-4 justify-center">
-                                <a href="#" target="_blank">
+                                <a href="https://linkedin.com/in/dilju-bhaskaran-am" target="_blank" className="hover:border rounded-lg px-2 py-2 transition duration-300">
                                     <Linkedin/>  
                                 </a>
-                                <a href="#" target="_blank">
+                                <a href="https://www.instagram.com/dilju__bhaskaran__am" target="_blank" className="hover:border rounded-lg px-2 py-2 transition duration-300">
                                     <Instagram/>  
                                 </a>
-                                <a href="#" target="_blank">
+                                <a href="#" target="_blank" className="hover:border rounded-lg px-2 py-2 transition duration-300">
                                     <Facebook/>  
                                 </a>
                             </div>
