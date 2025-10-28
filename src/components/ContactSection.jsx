@@ -124,7 +124,7 @@ export const ContactSection = () => {
                   <Instagram />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/dilju.dilju.52"
                   target="_blank"
                   className="hover:border rounded-lg px-2 py-2 transition duration-300"
                 >
