@@ -31,6 +31,17 @@ const projects = [
         demoUrl: "#",
         githubUrl: "https://github.com/Dilju/Main_project-RWP_SNN-"
     },
+    {
+        id: 4,
+        title: "Alpha Corporate Website (B2B Advertising)",
+        description:
+        "A client-driven corporate website for a sample B2B advertising company, designed in Figma and developed using React and Tailwind CSS. The project focuses on modern UI/UX, responsive layouts, accessibility, performance optimization, and subtle animations, following strict brand guidelines for colors and typography.",
+        image: "/projects/alpha_corporate_website.png",
+        tags: ["React", "Tailwind CSS", "Figma", "Vite", "UI/UX"],
+        demoUrl: "https://alpha-advertising-git-main-diljus-projects.vercel.app/",
+        githubUrl: "https://github.com/Dilju/Alpha_Advertising"
+}
+
 ];
 
 export const ProjectSection = () => {
